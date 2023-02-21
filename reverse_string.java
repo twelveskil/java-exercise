@@ -5,7 +5,7 @@ public class reversing_string {
 
         for(int i = 0; i<str.length(); i++){
             char letter = str.charAt(i);
-            trs += letter;
+            trs = letter + trs;
         }
         System.out.println(str); // normal string
         System.out.println(trs); // reversed string
